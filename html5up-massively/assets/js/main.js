@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function showimage()
+{
+    $("body").css("background-image","url('images/test.png')"); // Onclick of button the background image of body will be test here. Give the image path in url
+    $('#clickbutton').hide(); //This will hide the button specified in html
+}
+
 (function($) {
 
 	var	$window = $(window),
