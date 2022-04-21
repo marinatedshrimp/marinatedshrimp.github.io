@@ -2599,7 +2599,7 @@ input, select, textarea {
 	}
 	.container:hover .center-text{
 		opacity: 0;
-    	transition: opacity .3s;
+    	transition: opacity .6s;
 	}
 
 	.center-text{
