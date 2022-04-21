@@ -2587,6 +2587,28 @@ input, select, textarea {
 		}
 
 /* Image */
+	.container{
+		position: relative;
+        text-align: center;
+	}
+	.imgg{
+		filter: blur(9px);
+	}
+	.imgg:hover{
+		filter:blur(0px);
+	}
+	.container:hover .center-text{
+		opacity: 0;
+    	transition: opacity .3s;
+	}
+
+	.center-text{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #ffd5d5;
+	}
 
 	.image {
 		border: 0;
@@ -2636,6 +2658,8 @@ input, select, textarea {
 			display: block;
 			margin: 4rem 0;
 			width: 100%;
+
+			
 		}
 
 			.image.main:first-child {
